@@ -14,6 +14,7 @@ import Testimonial from '../Components/Testimonial/Testimonial';
 import Contact from '../Components/Contact/Contact';
 import WallOfImpact from '../Components/WallofImpact/WallofImpact';
 // import About1 from '../Components/Navbar/pages/About1'
+// import Demo from "../Components/Demo/Demo"
 
 function MainLayout() {
   return (
@@ -32,6 +33,7 @@ function MainLayout() {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/wallofimpact" element={<WallOfImpact/>} />
         {/* <Route path="/about1" element={<About1/>} /> */}
+        {/* <Route path="/demo" element={<Demo/>} /> */}
         
 
         

@@ -6,10 +6,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { NavLink , Link } from 'react-router-dom'; // Updated import to 'react-router-dom'
 import { Linkedin } from 'lucide-react'
+// import { gsap } from "gsap";
 
-import About from './About';
-import HallOfFame from '../../HallOfFame/HallOfFame';
-import Events from '../../Events/Events';
 
 
 function HomeSlider() {
@@ -285,7 +283,7 @@ function HomeSlider() {
             <div className='profile-down'>
               <img src='./src/publics/mentors/Anand Soni.png' />
               <div className='profile-title'>Anand Soni</div>
-              <button className='ml-[160px] mt-2'><NavLink ><Linkedin /></NavLink></button>
+              <button className='ml-[160px] mt-2'><Link to="www.mackystech.vercel.app" ><Linkedin /></Link></button>
               <div className="profile-button text-[16px] bg-[#2b5dff] text-center text-white font-inter cursor-pointer ">contact me</div>
             </div>
 

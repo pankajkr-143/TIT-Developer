@@ -6,7 +6,7 @@ function Footer() {
           
 
             <div className='flex justify-center items-center gap-6'>
-                <img src="./public/images/titlogo.png" className='w-[100px] rounded-2xl' alt="" />
+                <img src="./src/publics/images/titlogo.png" className='w-[100px] rounded-2xl' alt="" />
                 <h1 className='text-3xl font-bold font-inter'>TIT Developer Community</h1>
             </div>
 

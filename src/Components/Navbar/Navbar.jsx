@@ -1,14 +1,37 @@
-import React from 'react'
+// import React, { useRef } from 'react'
 import { Check, Info , ChevronDown } from "lucide-react"
 import { Link, NavLink } from "react-router"
+import { gsap } from 'gsap/gsap-core'
+// import {useGSAP} from '@gsap/react'
 
 
 function Navbar() {
+
+
+  var t1 = gsap.timeline()
+  t1.from("Link",{
+    y:-30,
+    opacity:0,
+    duration:1 ,
+    stagger:0.3
+
+  })
+  // const gsapRef = useRef()
+
+  // useGSAP(()=>{
+  //   gsap.to(gsapRef.current,{
+  //     y:-30,
+  //     opacity:0,
+  //     duration:1 ,
+  //     delay:0.5,
+  //   })
+  // })
+
   return (
     <div>
       {/* NAVBAR TOP */}
 
-      <div className='navbar_top bg-[#272343] h-[45px] w-[100%] flex items-center justify-center '>
+      <div className='navbar_top bg-[#272343] h-[45px] w-[100%] flex items-center justify-center'>
         <div className='lg:container flex justify-between items-center'>
           <p className='flex items-center gap-2 text-sm font-inter font-normal text-white capitalize'><Check />TECHNOCRATES INSTITUTION OF TECHNOLOGY</p>
 
@@ -31,7 +54,7 @@ function Navbar() {
         <div className="lg:container flex items-center justify-between">
           <div className="navbar_bottom flex items-center justify-between gap-8">
             <div >
-              <img src="./public/images/titlogo.png" className='w-[100px] rounded-md' alt="" />
+              <img src="./src/publics/images/titlogo.png" className='logo w-[100px] rounded-md' alt="" />
             </div>
 
             <nav className='navbar space-x-[45px] ml-[500px] '>
