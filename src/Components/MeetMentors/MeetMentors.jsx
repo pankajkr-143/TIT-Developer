@@ -15,7 +15,7 @@ function MeetMentors() {
             <div className='upc border border-[#cccc] h-[400px] shadow-2xl rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'>
                 <div className='gradiant'></div>
                 <div className='profile-down'>
-                    <img src='./public/mentors/Anand Soni.png'/>
+                    <img src='./src/publics/mentors/Anand Soni.png'/>
                     <div className='profile-title'>Anand Soni</div>
                     <button className='ml-[160px] mt-2'><NavLink ><Linkedin /></NavLink></button>
                     <div className="profile-button text-[16px] bg-[#2b5dff] text-center text-white font-inter cursor-pointer ">contact me</div>
@@ -25,7 +25,7 @@ function MeetMentors() {
             <div className='upc border border-[#cccc] h-[400px] shadow-2xl rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'>
                 <div className='gradiant'></div>
                 <div className='profile-down'>
-                    <img src='./public/mentors/ankit kumar.jpg'/>
+                    <img src='./src/publics/mentors/ankit kumar.jpg'/>
                     <div className='profile-title'>Ankit Kumar</div>
                     <button className='ml-[160px] mt-2'><NavLink ><Linkedin /></NavLink></button>
                     <div className="profile-button text-[16px] bg-[#2b5dff] text-center text-white font-inter cursor-pointer  ">contact me</div>
@@ -35,7 +35,7 @@ function MeetMentors() {
             <div className='upc border border-[#cccc] h-[400px] shadow-2xl rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'>
                 <div className='gradiant'></div>
                 <div className='profile-down'>
-                    <img src='./public/mentors/ankit patel .jpg'/>
+                    <img src='./src/publics/mentors/ankit patel .jpg'/>
                     <div className='profile-title'>Ankit Patel</div>
                     <button className='ml-[160px] mt-2'><NavLink ><Linkedin /></NavLink></button>
                     <div className="profile-button text-[16px] bg-[#2b5dff] text-center text-white font-inter cursor-pointer ">contact me</div>

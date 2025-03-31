@@ -11,7 +11,7 @@ function About() {
       <div className='relative'>
         <img 
         className='w-full object-cover'
-        src="./public/About/head.jpg" alt="" />
+        src="./src/publics/About/head.jpg" alt="" />
       </div>
       <div className='about absolute top-[30%] left-[30%] flex flex-col justify-center items-center p-4 '>
         <h1 className='text-[40px] font-inter font-bold text-[#edecf6] '>
@@ -27,7 +27,7 @@ function About() {
       <div className="hero w-[100%] h-[60vh] flex justify-center items-center bg-slate-200">
 
       <div className='w-[50%] h-[60vh] flex justify-center items-center'>
-          <img src='./public/images/Slide2.jpg '
+          <img src='./src/publics/images/Slide2.jpg '
             className='object-contain rounded-2xl '
           />
         </div>
@@ -70,7 +70,7 @@ function About() {
 
         </div>
         <div className='w-[40%] flex justify-center items-center'>
-          <img src="./public/images/vision.jpg" className='shadow rounded-2xl' />
+          <img src="./src/publics/images/vision.jpg" className='shadow rounded-2xl' />
         </div>
 
       </section>
@@ -98,7 +98,7 @@ function About() {
           </div>
           <div className="card bg-base-100 w-[400px] h-[500px] shrink-0 shadow-2xl">
             <div className="card-body ">
-                <img src="./public/images/mision.jpg" 
+                <img src="./src/publics/images/mision.jpg" 
                   className='w-full h-full object-cover object-right'
                  /> 
             </div>
@@ -112,19 +112,19 @@ function About() {
         </div>
         <div className='flex justify-center items-center gap-6 '>
           <div className='w-[300px] h-[250px] flex flex-col justify-center items-center rounded-2xl shadow-2xl p-2'>
-            <img src='./public/joinus/study.png' className='w-[100px] mb-4 border-4 rounded-full border-[#43e3d9] ' />
+            <img src='./src/publics/joinus/study.png' className='w-[100px] mb-4 border-4 rounded-full border-[#43e3d9] ' />
             <p className='text-lg font-inter text-[black] font-normal text-center'>Hands-on Learning with Real-World Projects </p>
           </div>
           <div className='w-[300px] h-[250px]  flex flex-col justify-center items-center rounded-2xl shadow-2xl p-2'>
-            <img src='./public/joinus/workshop.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
+            <img src='./src/publics/joinus/workshop.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
             <p className='text-lg font-inter text-[black] font-normal text-center'>Access to Exclusive Workshops and Hackathons  </p>
           </div>
           <div className='w-[300px] h-[250px]  flex flex-col justify-center items-center rounded-2xl shadow-2xl'>
-            <img src='./public/joinus/leadership.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
+            <img src='./src/publics/joinus/leadership.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
             <p className='text-lg font-inter text-[black] font-normal text-center'>Personalized Mentorship from Industry-Ready Seniors  </p>
           </div>
           <div className='w-[300px] h-[250px]  flex flex-col justify-center items-center rounded-2xl shadow-2xl p-2'>
-            <img src='./public/joinus/transparent.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
+            <img src='./src/publics/joinus/transparent.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
             <p className='text-lg font-inter text-[black] font-normal text-center'>Build a Robust Technical Portfolio for Placements  </p>
           </div>
 
@@ -140,7 +140,7 @@ function About() {
             <div className='upc border border-[#cccc] h-[400px] shadow-2xl rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'>
                 <div className='gradiant'></div>
                 <div className='profile-down'>
-                    <img src='./public/mentors/Anand Soni.png'/>
+                    <img src='./src/publics/mentors/Anand Soni.png'/>
                     <div className='profile-title'>Anand Soni</div>
                     <button className='ml-[160px] mt-2'><NavLink ><Linkedin /></NavLink></button>
                     <div className="profile-button text-[16px] bg-[#2b5dff] text-center text-white font-inter cursor-pointer ">contact me</div>
@@ -150,7 +150,7 @@ function About() {
             <div className='upc border border-[#cccc] h-[400px] shadow-2xl rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'>
                 <div className='gradiant'></div>
                 <div className='profile-down'>
-                    <img src='./public/mentors/ankit kumar.jpg'/>
+                    <img src='./src/publics/mentors/ankit kumar.jpg'/>
                     <div className='profile-title'>Ankit Kumar</div>
                     <button className='ml-[160px] mt-2'><NavLink ><Linkedin /></NavLink></button>
                     <div className="profile-button text-[16px] bg-[#2b5dff] text-center text-white font-inter cursor-pointer  ">contact me</div>
@@ -160,7 +160,7 @@ function About() {
             <div className='upc border border-[#cccc] h-[400px] shadow-2xl rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'>
                 <div className='gradiant'></div>
                 <div className='profile-down'>
-                    <img src='./public/mentors/ankit patel .jpg'/>
+                    <img src='./src/publics/mentors/ankit patel .jpg'/>
                     <div className='profile-title'>Ankit Patel</div>
                     <button className='ml-[160px] mt-2'><NavLink ><Linkedin /></NavLink></button>
                     <div className="profile-button text-[16px] bg-[#2b5dff] text-center text-white font-inter cursor-pointer ">contact me</div>

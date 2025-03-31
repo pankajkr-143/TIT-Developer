@@ -7,7 +7,7 @@ function Events() {
             <div className='relative'>
                 <img
                     className='w-full object-cover'
-                    src="./public/About/events.jpg" alt="" />
+                    src="./src/publics/About/events.jpg" alt="" />
             </div>
             <div className='about absolute top-[30%] left-[30%] flex flex-col justify-center items-center p-4 '>
                 <h1 className='text-[40px] font-inter font-bold text-[#edecf6] '>
@@ -25,7 +25,7 @@ function Events() {
                     <div className="card w-[300px] h-[400px] shadow-2xl cursor-pointer hover:translate-y-[-20px] transition-all duration-500">
                         <figure className=''>
                             <img className='object-cover w-[100%] h-[350px]'
-                                src="./public/Events/android.webp"
+                                src="./src/publics/Events/android.webp"
                                 alt="Android" />
                         </figure>
                         <div className="card-body">
@@ -39,7 +39,7 @@ function Events() {
                     <div className="card w-[300px] h-[400px] shadow-2xl cursor-pointer hover:translate-y-[-20px] transition-all duration-500">
                         <figure>
                             <img className='w-[100%] h-[350px] object-cover'
-                                src="./public/Events/hackathon2.avif"
+                                src="./src/publics/Events/hackathon2.avif"
                                 alt="Android" />
                         </figure>
                         <div className="card-body">
@@ -53,7 +53,7 @@ function Events() {
                     <div className="card w-[300px] h-[400px] shadow-2xl cursor-pointer hover:translate-y-[-20px] transition-all duration-500">
                         <figure>
                             <img className='w-[100%] h-[350px] object-cover'
-                                src="./public/Events/coding.jpg"
+                                src="./src/publics/Events/coding.jpg"
                                 alt="Android" />
                         </figure>
                         <div className="card-body">
@@ -67,7 +67,7 @@ function Events() {
                     <div className="card w-[300px] h-[400px] shadow-2xl cursor-pointer hover:translate-y-[-20px] transition-all duration-500">
                         <figure>
                             <img className='w-[100%] h-[350px] object-cover'
-                                src="./public/Events/class1.jpg"
+                                src="./src/publics/Events/class1.jpg"
                                 alt="Android" />
                         </figure>
                         <div className="card-body">

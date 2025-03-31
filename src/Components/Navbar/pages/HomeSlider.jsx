@@ -18,56 +18,56 @@ function HomeSlider() {
       course: 'Android Development',
       name: 'Dipu Kumar (2nd Year)',
       achievement: '5+ projects , 4+ certifications',
-      image: './public/Hall/Dipu1.jpg'
+      image: './src/publics/Hall/Dipu1.jpg'
 
     },
     {
       course: 'Android Development',
       name: 'Aryan Sharma (3rd Year)',
       achievement: '10+ projects , 5+ hackathon , Play Store Deployments',
-      image: './public/Hall/Aryan1.jpg'
+      image: './src/publics/Hall/Aryan1.jpg'
 
     },
     {
       course: 'Machine Learning',
       name: 'Aman Mishra (2nd Year)',
       achievement: '5+ major projects , SIH 2024 Finalist',
-      image: './public/Hall/Aman1.jpg'
+      image: './src/publics/Hall/Aman1.jpg'
 
     },
     {
       course: 'Machine Learning',
       name: 'Deepika Deshmukh (3rd Year)',
       achievement: '10+ projects , 5+ hackhathons',
-      image: './public/Hall/Deepika1.jpg'
+      image: './src/publics/Hall/Deepika1.jpg'
 
     },
     {
       course: 'Web Development',
       name: 'Naman Kumar (3rd Year)',
       achievement: '5+ projects , secured internship',
-      image: './public/Hall/Naman1.jpg'
+      image: './src/publics/Hall/Naman1.jpg'
 
     },
     {
       course: 'Web Development',
       name: 'Prakhar (2nd Year)',
       achievement: '10+ projects , SIH 2024 Finalist',
-      image: './public/Hall/Prakhar1.jpg'
+      image: './src/publics/Hall/Prakhar1.jpg'
 
     },
     {
       course: 'Cybersecurity',
       name: 'Akash Kumar (2nd Year)',
       achievement: '3+ projects , ATS-optimized resume',
-      image: './public/Hall/Akash1.jpg'
+      image: './src/publics/Hall/Akash1.jpg'
 
     },
     {
       course: 'Cybersecurity',
       name: 'Mohd Meraaz (3rd Year)',
       achievement: 'Sucessfully completed cybersecurity training',
-      image: './public/Hall/Mohd1.jpg'
+      image: './src/publics/Hall/Mohd1.jpg'
 
     }
 
@@ -90,19 +90,19 @@ function HomeSlider() {
         className="mySwiper"
       >
         <SwiperSlide className='bgImage relative'>
-          <img src='./public/images/Slide1.jpg' />
+          <img src='./src/publics/images/Slide1.jpg' />
         </SwiperSlide>
         <SwiperSlide className='bgImage relative'>
-          <img src='./public/images/Slide3.jpg' />
+          <img src='./src/publics/images/Slide3.jpg' />
         </SwiperSlide>
         <SwiperSlide className='bgImage relative'>
-          <img src='./public/images/Slide2.jpg' />
+          <img src='./src/publics/images/Slide2.jpg' />
         </SwiperSlide>
         <SwiperSlide className='bgImage relative'>
-          <img src='./public/images/Slide5.jpg' />
+          <img src='./src/publics/images/Slide5.jpg' />
         </SwiperSlide>
         <SwiperSlide className='bgImage relative'>
-          <img src='./public/images/Slide4.jpg' />
+          <img src='./src/publics/images/Slide4.jpg' />
         </SwiperSlide>
       </Swiper>
 
@@ -136,7 +136,7 @@ function HomeSlider() {
               workshops to help students succeed in the tech industry. </li>
           </div>
           <div className='w-[50%] h-[60vh] flex justify-center items-center'>
-            <img src='./public/images/Slide2.jpg '
+            <img src='./src/publics/images/Slide2.jpg '
               className='object-contain rounded-2xl '
             />
           </div>
@@ -151,19 +151,19 @@ function HomeSlider() {
           </div>
           <div className='flex justify-center items-center gap-6 '>
             <div className='w-[300px] h-[250px] flex flex-col justify-center items-center rounded-2xl shadow-2xl p-2'>
-              <img src='./public/joinus/study.png' className='w-[100px] mb-4 border-4 rounded-full border-[#43e3d9] ' />
+              <img src='./src/publics/joinus/study.png' className='w-[100px] mb-4 border-4 rounded-full border-[#43e3d9] ' />
               <p className='text-lg font-inter text-[black] font-normal text-center'>Hands-on Learning with Real-World Projects </p>
             </div>
             <div className='w-[300px] h-[250px]  flex flex-col justify-center items-center rounded-2xl shadow-2xl p-2'>
-              <img src='./public/joinus/workshop.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
+              <img src='./src/publics/joinus/workshop.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
               <p className='text-lg font-inter text-[black] font-normal text-center'>Access to Exclusive Workshops and Hackathons  </p>
             </div>
             <div className='w-[300px] h-[250px]  flex flex-col justify-center items-center rounded-2xl shadow-2xl'>
-              <img src='./public/joinus/leadership.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
+              <img src='./src/publics/joinus/leadership.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
               <p className='text-lg font-inter text-[black] font-normal text-center'>Personalized Mentorship from Industry-Ready Seniors  </p>
             </div>
             <div className='w-[300px] h-[250px]  flex flex-col justify-center items-center rounded-2xl shadow-2xl p-2'>
-              <img src='./public/joinus/transparent.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
+              <img src='./src/publics/joinus/transparent.png' className='w-[100px] mb-4 border-[#43e3d9] border-4 rounded-full shadow-2xl ' />
               <p className='text-lg font-inter text-[black] font-normal text-center'>Build a Robust Technical Portfolio for Placements  </p>
             </div>
 
@@ -185,7 +185,7 @@ function HomeSlider() {
           <div className="card w-[300px] h-[400px] shadow-2xl cursor-pointer hover:translate-y-[-20px] transition-all duration-500">
             <figure className=''>
               <img className='object-cover w-[100%] h-[350px]'
-                src="./public/Events/android.webp"
+                src="./src/publics/Events/android.webp"
                 alt="Android" />
             </figure>
             <div className="card-body">
@@ -199,7 +199,7 @@ function HomeSlider() {
           <div className="card w-[300px] h-[400px] shadow-2xl cursor-pointer hover:translate-y-[-20px] transition-all duration-500">
             <figure>
               <img className='w-[100%] h-[350px] object-cover'
-                src="./public/Events/hackathon2.avif"
+                src="./src/publics/Events/hackathon2.avif"
                 alt="Android" />
             </figure>
             <div className="card-body">
@@ -213,7 +213,7 @@ function HomeSlider() {
           <div className="card w-[300px] h-[400px] shadow-2xl cursor-pointer hover:translate-y-[-20px] transition-all duration-500">
             <figure>
               <img className='w-[100%] h-[350px] object-cover'
-                src="./public/Events/coding.jpg"
+                src="./src/publics/Events/coding.jpg"
                 alt="Android" />
             </figure>
             <div className="card-body">
@@ -227,7 +227,7 @@ function HomeSlider() {
           <div className="card w-[300px] h-[400px] shadow-2xl cursor-pointer hover:translate-y-[-20px] transition-all duration-500">
             <figure>
               <img className='w-[100%] h-[350px] object-cover'
-                src="./public/Events/class1.jpg"
+                src="./src/publics/Events/class1.jpg"
                 alt="Android" />
             </figure>
             <div className="card-body">
@@ -283,7 +283,7 @@ function HomeSlider() {
           <div className='upc border border-[#cccc] h-[400px] shadow-2xl rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'>
             <div className='gradiant'></div>
             <div className='profile-down'>
-              <img src='./public/mentors/Anand Soni.png' />
+              <img src='./src/publics/mentors/Anand Soni.png' />
               <div className='profile-title'>Anand Soni</div>
               <button className='ml-[160px] mt-2'><NavLink ><Linkedin /></NavLink></button>
               <div className="profile-button text-[16px] bg-[#2b5dff] text-center text-white font-inter cursor-pointer ">contact me</div>
@@ -293,7 +293,7 @@ function HomeSlider() {
           <div className='upc border border-[#cccc] h-[400px] shadow-2xl rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'>
             <div className='gradiant'></div>
             <div className='profile-down'>
-              <img src='./public/mentors/ankit kumar.jpg' />
+              <img src='./src/publics/mentors/ankit kumar.jpg' />
               <div className='profile-title'>Ankit Kumar</div>
               <button className='ml-[160px] mt-2'><NavLink ><Linkedin /></NavLink></button>
               <div className="profile-button text-[16px] bg-[#2b5dff] text-center text-white font-inter cursor-pointer  ">contact me</div>
@@ -303,7 +303,7 @@ function HomeSlider() {
           <div className='upc border border-[#cccc] h-[400px] shadow-2xl rounded-2xl transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500'>
             <div className='gradiant'></div>
             <div className='profile-down'>
-              <img src='./public/mentors/ankit patel .jpg' />
+              <img src='./src/publics/mentors/ankit patel .jpg' />
               <div className='profile-title'>Ankit Patel</div>
               <button className='ml-[160px] mt-2'><NavLink ><Linkedin /></NavLink></button>
               <div className="profile-button text-[16px] bg-[#2b5dff] text-center text-white font-inter cursor-pointer ">contact me</div>

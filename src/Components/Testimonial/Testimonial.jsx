@@ -32,7 +32,7 @@ function Testimonial() {
                 <SwiperSlide className='flex justify-center items-center w-[100%] h-[100vh] '>
                     <div className=' w-[80%] h-[200px] flex m-auto justify-center items-center gap-6 bg-slate-100 rounded-full p-8 border-2 border-blue-500'>
                         <div className='w-[200px] h-[200px]'>
-                            <img src="./public/mentors/Anand Soni.png"
+                            <img src="./src/publics/mentors/Anand Soni.png"
                                 className='w-full h-full object-cover p-4 rounded-[200px]  '
                             />
                         </div>
@@ -48,7 +48,7 @@ function Testimonial() {
                 <SwiperSlide className='flex justify-center items-center'>
                     <div className=' w-[80%] h-[200px] flex m-auto justify-center items-center gap-6 bg-slate-100 rounded-full p-8 border-2 border-blue-500'>
                         <div className='w-[200px] h-[200px]'>
-                            <img src="./public/Hall/Aman1.jpg"
+                            <img src="./src/publics/Hall/Aman1.jpg"
                                 className='w-full h-full object-cover p-4 rounded-[200px] '
                             />
                         </div>
@@ -64,7 +64,7 @@ function Testimonial() {
                 <SwiperSlide className='flex justify-center items-center  '>
                     <div className=' w-[80%] h-[200px] flex m-auto justify-center items-center gap-6 bg-slate-100 rounded-full p-8 border-2 border-blue-500'>
                         <div className='w-[200px] h-[200px]'>
-                            <img src="./public/mentors/ankit patel .jpg"
+                            <img src="./src/publics/mentors/ankit patel .jpg"
                                 className='w-full h-full object-cover p-4 rounded-[200px] '
                             />
                         </div>
@@ -80,7 +80,7 @@ function Testimonial() {
                 <SwiperSlide className='flex justify-center items-center  '>
                     <div className=' w-[80%] h-[200px] flex m-auto justify-center items-center gap-6 bg-slate-100 rounded-full p-8 border-2 border-blue-500'>
                         <div className='w-[200px] h-[200px]'>
-                            <img src="./public/mentors/ankit kumar.jpg"
+                            <img src="./src/publics/mentors/ankit kumar.jpg"
                                 className='w-full h-full object-cover p-4 rounded-[200px] '
                             />
                         </div>

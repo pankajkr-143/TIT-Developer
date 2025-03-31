@@ -7,56 +7,56 @@ function HallOfFame() {
       course: 'Android Development',
       name: 'Dipu Kumar (2nd Year)',
       achievement: '5+ projects , 4+ certifications',
-      image: './public/Hall/Dipu1.jpg'
+      image: './src/publics/Hall/Dipu1.jpg'
 
     },
     {
       course: 'Android Development',
       name: 'Aryan Sharma (3rd Year)',
       achievement: '10+ projects , 5+ hackathon , Play Store Deployments',
-      image: './public/Hall/Aryan1.jpg'
+      image: './src/publics/Hall/Aryan1.jpg'
 
     },
     {
       course: 'Machine Learning',
       name: 'Aman Mishra (2nd Year)',
       achievement: '5+ major projects , SIH 2024 Finalist',
-      image: './public/Hall/Aman1.jpg'
+      image: './src/publics/Hall/Aman1.jpg'
 
     },
     {
       course: 'Machine Learning',
       name: 'Deepika Deshmukh (3rd Year)',
       achievement: '10+ projects , 5+ hackhathons',
-      image: './public/Hall/Deepika1.jpg'
+      image: './src/publics/Hall/Deepika1.jpg'
 
     },
     {
       course: 'Web Development',
       name: 'Naman Kumar (3rd Year)',
       achievement: '5+ projects , secured internship',
-      image: './public/Hall/Naman1.jpg'
+      image: './src/publics/Hall/Naman1.jpg'
 
     },
     {
       course: 'Web Development',
       name: 'Prakhar (2nd Year)',
       achievement: '10+ projects , SIH 2024 Finalist',
-      image: './public/Hall/Prakhar1.jpg'
+      image: './src/publics/Hall/Prakhar1.jpg'
 
     },
     {
       course: 'Cybersecurity',
       name: 'Akash Kumar (2nd Year)',
       achievement: '3+ projects , ATS-optimized resume',
-      image: './public/Hall/Akash1.jpg'
+      image: './src/publics/Hall/Akash1.jpg'
 
     },
     {
       course: 'Cybersecurity',
       name: 'Mohd Meraaz (3rd Year)',
       achievement: 'Sucessfully completed cybersecurity training',
-      image: './public/Hall/Mohd1.jpg'
+      image: './src/publics/Hall/Mohd1.jpg'
 
     }
 
@@ -67,7 +67,7 @@ function HallOfFame() {
       <div className='relative'>
         <img
           className='w-full object-cover'
-          src="./public/About/halloffame.jpg" alt="" />
+          src="./src/publics/About/halloffame.jpg" alt="" />
       </div>
       <div className='about absolute top-[30%] left-[30%] flex flex-col justify-center items-center p-4 '>
         <h1 className='text-[40px] font-inter font-bold text-[#edecf6] '>
