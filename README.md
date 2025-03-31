@@ -1,5 +1,3 @@
-# TIT-Developer-Community 
-
 # 🚀 TIT Developer Community
 
 Welcome to the **TIT Developer Community** – a student-driven initiative empowering learners with mentorship, real-world projects, and skill-building opportunities in various tech domains.
