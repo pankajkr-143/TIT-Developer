@@ -9,5 +9,7 @@ export default defineConfig({
     ),
    
     react()],
+
+  base: "/TIT-Developer"
    
 })

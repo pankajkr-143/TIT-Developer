@@ -1,5 +1,6 @@
 {
   "name": "developer",
+  "homepage": "https://titdevelopercommunity.github.io/TIT-Developer/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -16,6 +19,7 @@
     "@mui/material": "^7.0.0",
     "@tailwindcss/vite": "^4.0.17",
     "echarts-for-react": "^3.0.2",
+    "gh-pages": "^6.3.0",
     "lucide": "^0.484.0",
     "lucide-react": "^0.484.0",
     "react": "^19.0.0",
