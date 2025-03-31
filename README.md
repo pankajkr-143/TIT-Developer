@@ -33,8 +33,6 @@ TIT Developer Community is designed to bridge the gap between juniors and senior
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js (if applicable)
-- **Database:** MongoDB (if applicable)
 - **Hosting:** GitHub Pages / Vercel
 
 ## 📌 Installation & Setup
