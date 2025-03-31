@@ -1,0 +1,113 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@theme{
+  --font-inter: "Inter", sans-serif;
+}
+
+.nav{
+  @apply relative
+ hover:font-bold
+ /* duration-200 */
+}
+.nav::after {
+  @apply absolute
+  content-[""]
+  bg-black
+  h-[3px]
+  w-[0%]
+  left-0
+  -bottom-[5px]
+  rounded-xl
+  duration-300
+}
+
+.nav:hover::after{
+    @apply w-[100%]
+}
+
+
+.bgImage::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0 , 0 , 0 , 0.55);
+}
+.about{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 51%;
+  top: 119px;
+  left: 0;
+  background-color: rgba(0 , 0 , 0 , 0.55);
+}
+.upc{
+  width: 350px;
+  margin: 20px;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  background: white;
+}
+.gradiant{
+  background-image: linear-gradient(#91baff , #205fff);
+  height: 125px;
+  border-radius: 4px 4px 0px 0px;
+
+}
+.profile-down img{
+  margin: auto;
+  height: 150px;
+  border-radius: 100px;
+  margin-top: -75px;
+  padding: 5px;
+  background: white;
+
+}
+.profile-title{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #cccc;
+  font-size: 36px;
+  font-weight: 600;
+  
+}
+.profile-button{
+  margin: 10px 100px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+}
+
+
+/* GALLERY SECTION */
+
+.app{
+  width: 80vw;
+  columns: 4;
+  margin: 2rem auto;
+
+}
+
+.card img{
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  transition: .2s ease-in-out;
+}
+.card img:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card {
+  columns: 4 12rem;
+  gap: 4;
+}
