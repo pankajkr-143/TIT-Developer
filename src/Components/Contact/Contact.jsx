@@ -22,7 +22,7 @@ function Contact() {
     if (data.success) {
          Swal.fire({
                 icon: 'success',
-                title: 'Successfully, I have accepted your requst! ☺️',
+                title: 'Successfully, I am accepted your requst! ☺️',
                 text: 'Thank you for joining us!',
               });
       event.target.reset();
